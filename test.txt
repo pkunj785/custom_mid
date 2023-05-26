@@ -1,0 +1,9 @@
+############
+
+curl http://localhost:8080/lesson -d '{"title": "middleware with Go", "summary": "learn some middleware concepts with a quick and dirty demo"}'
+
+#########################
+
+curl -i -H "Content-Type: application/json" -X POST http://localhost:8080/city -d '{"title": "Middleware demo with Go", "summary": "Hopefully a successful demo now that we have specified mime type and the method"}'
+
+##################################
